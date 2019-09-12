@@ -16,18 +16,33 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="container">
+<body class="container-fluid">
   <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <div class="row">
+      <div class="col">
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      </div>
+    </div>
   <![endif]-->
+<div class="row">
+  <div class="col text-center">
+    <h1 class="display-2">What Do you Want to Know?</h1>
+    <p><em>It's probably tedious</em></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col text-center rounded">
+    <form action="results.html" method="GET">
+      <input type="text" name="query" id="query" value=""><button type="submit" id="submit">That's Stupid</button>
+    </form>
+  </div>
+</div>
 
-  <!-- Add your site or application content here -->
-  <h1>What Do you Want to Know About?</h1>
-  <p>It's probably dumb</p>
-  <form action="results.html" method="GET">
-    What is <input type="text" name="query" id="query" value=""> good for?
-    <button type="submit" id="submit">That's Stupid</button>
-  </form>
+  
+
+  
+  
+
 
 
 
